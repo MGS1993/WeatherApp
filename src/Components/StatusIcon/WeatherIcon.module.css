@@ -1,0 +1,13 @@
+.iconWrapper {
+  
+  flex-grow: 3;
+}
+
+.weatherImg {
+  scale: 1.2;
+}
+
+.weatherDesc {
+  text-align: center;
+  font-size: 80%;
+}

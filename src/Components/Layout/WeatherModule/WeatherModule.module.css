@@ -1,0 +1,121 @@
+.moduleWrapper {
+  position: relative;
+  top: 8%;
+  height: 44%;
+  width: 45%;
+  background-color: white;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+  padding: 16px 16px 12px;
+}
+
+.moduleMainInfo {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 100%;
+}
+
+.tempReading {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.tempTitle {
+  font-size: 1.5vw;
+  
+}
+
+.tempText {
+  font-size: 3vw;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  
+}
+
+.tempTextDiv {
+  flex-grow: 3;
+}
+
+.tempTextMisc {
+  font-size: 80%;
+}
+
+.tempTextWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 4;
+}
+
+.forecast {
+  width: 100%;
+  height: 100%;
+  border-left: 2px solid #656565;
+  display: flex;
+  flex-direction: column;
+}
+.forecastDiv {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.forecastTemp {
+  margin-left: 7%;
+}
+
+.forecastDate {
+  font-size: 80%;
+  color: #656565;
+}
+
+.forecastCard {
+  height: 33%;
+  width: 33%;
+  border: 1px solid black;
+}
+.forecastWrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.date {
+  font-size: 1.2vw;
+  color: #656565;
+}
+
+.hours {
+  font-size: 1.2vw;;
+  color: #656565;
+}
+
+.dateDivWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.minMax {
+  flex-grow: .5;
+  font-size: 12px;
+}
+
+.textAdjust {
+  font-size: 1.3em;
+}
+
+.miscTemp {
+  font-size: 70%;
+}
